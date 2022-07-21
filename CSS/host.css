@@ -1,0 +1,478 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+.header .container{
+background-color: #faebd759;
+position: relative;
+display: flex;
+justify-content: space-between;
+width: 1200px;
+height: 150px;
+padding: 20px 60px;
+
+
+}
+.header nav li{
+    margin: 10px;
+    display: inline-block;
+   font-size: 18px;
+}
+.header .twitter i{
+    position: absolute;
+    right: 270px;
+    top: 37px;
+    font-size: 20px
+}
+
+.header .twitter{
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+    width: 244px;
+    height: 57px;
+    background-color: #1da1f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.header .container p:first-child{
+    font-weight: bold;
+    color: #3a85f5;
+    font-style: italic;
+    font-size: 20px;
+}
+.header nav{
+    position: absolute;
+    right: 320px;
+    top: 15px;
+}
+.landing .container{
+ position: relative;
+ background-color: #faebd759;
+width: 1200px;
+height: 700px;
+padding: 20px 60px;
+display: grid;
+grid-template-rows: repeat(2 , 1fr);
+grid-template-rows: auto;
+grid-template-areas: "info info card";
+}
+.landing .card img{
+    width: 450px;
+    height: 600px;
+}
+.landing .info{
+    grid-area: info;
+    
+}
+.landing .info p:first-child{
+    padding: 0;
+    width: 544px;
+    color: #00000087;
+    font-size: 16px;
+    
+}
+.landing .card{
+    grid-area: card;
+}
+.landing h1{
+    width: 519px;
+    height: 150px;
+    font-size: 50px
+}
+.landing .twitter{
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+    width: 244px;
+    height: 57px;
+    background-color: #1da1f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.landing .twitter i{
+    position: absolute;
+    left: 70px;
+    top: 328px;
+    font-size: 20px;
+    color: whit
+}
+.more{
+    position: absolute;
+    color: #1f7898;
+    top: 327px;
+    left: 323px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.images{
+    padding: 30px 0;
+}
+.images img{
+    margin: -10px;
+    width: 40px;
+    height: 40px;
+}
+.landing .info .nom p{
+    padding: 0;
+    margin: -2px 0;
+    font-size: 18px;
+    width: 530px;
+    color: #00000080;
+}
+.landing span{
+    color:#64a0b4;
+    font-weight: bold;
+}
+.features .container{
+position: relative;
+width: 1200px;
+height: 800px;
+margin-left: 0;
+padding: 20px 60px;
+}
+.features h2{
+    width: 352px;
+    font-size: 32px;
+    font-weight: 800;
+}
+.features .box{
+ position: relative;
+ margin-left: 0;
+width: 1200px;
+height: 600px;
+padding: 20px 60 20px 0px;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+grid-template-areas: "box1 box3" "box2 box4";
+gap: 20px;
+}
+.features .box p{
+    color: #00000096
+}
+.features .box1{
+    grid-area: box1;
+    width: 540px;
+    height: 240px;
+    border: 2px solid #0000003d;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.features .box2{
+    margin-top: -40px;
+    
+    grid-template-columns: box2;
+    width: 540px;
+    height: 240px;
+    border: 2px solid #0000003d;
+    padding: 20px;
+    border-radius: 5px;
+}
+.features .box3{
+    grid-area: box3;
+    width: 540px;
+    height: 240px;
+    margin-left: -40px;
+    border: 2px solid #0000003d;
+    padding: 20px;
+    border-radius: 5px;
+}
+.features .box4{
+    margin-top: -40px;
+    grid-area: box4;
+    width: 540px;
+    height: 240px;
+    margin-left: -40px;
+    border: 2px solid #0000003d;
+    padding: 20px;
+    border-radius: 5px;
+}
+.testimonial .box{
+ position: relative;
+background-color: #d7f5f5;
+width: 1200px;
+height: 386px;
+   padding: 20px 60px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: auto;
+   grid-template-areas: "box1 box2 box3";
+   gap: 20px;
+}
+.testimonial .box1{
+    position: relative;
+    padding: 20px;
+    grid-area: box1;
+    height: 222px;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+.testimonial .box1 img{
+    border: 15px;
+}
+.testimonial .box2{
+    position: relative;
+    padding: 20px;
+    grid-area: box2;
+    height: 310px;
+    background-color: white;
+    border-radius: 3px;
+}
+.testimonial .box3{
+    position: relative;
+    padding: 20px;
+    grid-area: box3;
+    height: 222px;
+    background-color: white;
+    border-radius: 3px;
+}
+.testimonial h2{
+    width: 1200px;
+    padding: 40px;
+    font-size: 40px;
+    margin-top: -91px;
+    padding-left: 66px;
+    margin-bottom: -5px;
+    background-color: #d7f5f5;
+}
+.testimonial .box1 img:not(:first-child , :last-child){
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.testimonial .box1 h3{
+    position: absolute;
+    top: 8px;
+    left: 73px;
+    font-size: 17px;
+}
+.box1 h6{
+    position: absolute;
+    top: 20px;
+    left: 73px;
+    font-size: 11px;
+}
+.box1 p{
+    color: #0000007a;
+}
+ .testimonial .box1 .like{
+   display: flex;
+   justify-content: space-between;
+}
+.box1 span{
+   position: absolute;
+    left: 51px;
+    top: 172px;
+    font-size: 18px;
+    color: #0000007a;
+    
+
+}
+.testimonial .box2 img:not(:first-child , :last-child){
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.testimonial .box2 h3{
+    position: absolute;
+    top: 8px;
+    left: 73px;
+    font-size: 17px;
+}
+.box2 h6{
+    position: absolute;
+    top: 20px;
+    left: 73px;
+    font-size: 11px;
+}
+.box2 p{
+    color: #0000007a;
+}
+ .testimonial .box2 .like{
+   display: flex;
+   justify-content: space-between;
+}
+.box2 span{
+   position: absolute;
+    left: 51px;
+    top: 244px;
+    font-size: 18px;
+    color: #0000007a;
+    
+
+}
+.testimonial .box3 img:not(:first-child , :last-child){
+    position: absolute;
+    right: 20px;
+    top: 25px;
+}
+.testimonial .box3 h3{
+    position: absolute;
+    top: 8px;
+    left: 73px;
+    font-size: 17px;
+}
+.box3 h6{
+    position: absolute;
+    top: 20px;
+    left: 73px;
+    font-size: 11px;
+}
+.box3 p{
+    color: #0000007a;
+}
+ .testimonial .box3 .like{
+   display: flex;
+   justify-content: space-between;
+}
+.box3 span{
+   position: absolute;
+    left: 51px;
+    top: 172px;
+    font-size: 18px;
+    color: #0000007a;
+}
+.footer .container{
+background-color: #faebd759;
+position: relative;
+display: flex;
+justify-content: space-between;
+width: 1200px;
+height: 70px;
+padding-left: 120px;
+padding-right: 120px;
+
+}
+.footer{
+    background-color: #d7f5f5;
+    width: 1200px;  
+}
+.footer nav li{
+    margin: 10px;
+    display: inline-block;
+   font-size: 18px;
+}
+.footer img{
+    position: absolute;
+    right: 430px;
+    top: 29px  
+}
+.footer .container p{
+    font-weight: bold;
+    color: #3a85f5;
+    font-style: italic;
+    font-size: 20px;
+}
+.price .container{
+    position: relative;
+    width: 1200px;
+    height: 600px;
+
+}
+.price h2{
+    font-size: 32px;
+}
+.price .plan{
+    position: absolute;
+    padding: 40px;
+    width: 610px;
+    align-items: center;
+    text-align: center;
+    transform: translateX(50%);
+}
+.plan p{
+    color: #070707b0;
+    width: 100%;
+}
+.price .box{
+    position: absolute;
+    border: 1px solid #fbf8f3;
+    background-color: #faebd759;
+    margin-top: 216px;
+    margin-left: 33%;
+    padding: 30px;
+    padding-top: 12px;
+    padding-left: 38px;
+    border-radius: 5px;
+    width: 462px;
+    height: 341px;
+}
+.price p:not(:last-child){
+    color: #0000007a;
+}
+.price img{
+    display: inline;
+    position: absolute;
+}
+.price .twitter{
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    width: 392px;
+    height: 46px;
+    background-color: #1da1f2;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    bottom: 15px;
+}
+.price .twitter i{
+    position: absolute;
+    left: 73px;
+    top: 14px;
+    font-size: 20px;
+    color: white;
+}
+.price span:first-of-type{
+    font-weight: 800;
+    font-size: 36px;
+}
+.price span:last-of-type{
+color: #0000007a;
+font-size: 20px;
+}
+.top p{
+    font-weight: 500;
+}
+.top::after{
+    position: absolute;
+    content: "";
+    width: 396px;
+    height: 0px;
+    border: 1px solid rgb(111 107 107 / 27%);
+    left: 38px;
+    top: 123px;
+}
+.price img:first-of-type{
+    position: absolute;
+    top: 138px;
+}
+
+.price p:not(:first-child){
+    padding-left: 40px;
+}
+.price .twitter::before{
+    position: absolute;
+    content: "";
+    width: 396px;
+    height: 0px;
+    border: 1px solid rgb(111 107 107 / 27%);
+    left: -1px;
+    top: -14px;
+}
+
+
